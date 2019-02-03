@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func guessedLetterFieldChanged(_ sender: UITextField) {
-        
+        updateUIAfterGuess()
     }
     
     @IBAction func doneKeyPress(_ sender: UITextField) {
