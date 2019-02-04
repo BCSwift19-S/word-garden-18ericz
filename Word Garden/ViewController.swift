@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     let maxNumberOfWrongGuesses = 8
     var wrongGuessesRemaining = 8
     var guessCount = 0
-    
+     
     
     override func viewDidLoad() {
         super.viewDidLoad()
